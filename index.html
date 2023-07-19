@@ -1,0 +1,2204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+<meta name="author" content="Prem Mody">
+<meta name="description" content="I am a Highly Motivated, Ambitious and Visionary Technophile who aims to be associated with a prestigious organization that upholds my development and growth.">
+<meta name="keywords" content="Prem Mody, Personal Portfolio, Artificial Intelligence Enthusiast, Full Stack Web Developer, App Developer">
+
+
+<title>Prem Mody | Personal Portfolio</title>
+<link rel="shortcut icon" href="favicon_golden.ico">
+
+<!-- Text Rotator-->
+<!-- Google Font-->
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,300italic,300,100italic,100,400italic,500,500italic,700,900,900italic,700italic%7COswald:400,300,700' rel='stylesheet' type='text/css'>
+<style type="text/css">
+  .unhide{
+      display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  }
+  .unhide:hover + .hide{
+    display: block;
+    transition: transform ease-out 0.3s;
+  }
+
+  .hide {
+  display: none;
+  transition: transform ease-out 0.3s;
+}
+</style>
+<!-- Design Style -->
+<link rel="stylesheet" type="text/css" href="css/scroll.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<!-- Icon -->
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+<!-- Projects Thumbnail / Slider -->
+<link rel="stylesheet" type="text/css" href="css/portfolio.css" />
+<link rel="stylesheet" type="text/css" href="css/carousel.css">
+
+<!-- Responsive -->
+<link rel="stylesheet" type="text/css" href="css/responsive.css" />
+<link rel="stylesheet" type="text/css" href="css/fingerpose.css" />
+
+<!-- Preloader -->
+<link rel="stylesheet" type="text/css" href="css/preloader.css">
+
+
+<!-- Pie Chart / Skills -->
+<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+<!-- Send Email -->
+<script type="text/javascript" src="js/sendemail.js"></script>
+<!-- Progressbar / Skills-->
+<script type="text/javascript" src="js/progressbar.js"></script>
+<!-- Projects-->
+<script src="js/modernizr.custom.js"></script>
+<!-- Gesture -->
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"> </script><script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/handpose"></script>
+<script src="js/fingerpose.js" type="text/javascript"></script>
+
+
+<script>
+$(document).bind("contextmenu",function(e) {
+ e.preventDefault();
+});
+
+$(document).keydown(function(e){
+    if(e.which === 123){
+       return false;
+    }
+});
+
+
+document.onkeydown = function(e) {
+if(event.keyCode == 123) {
+return false;
+}
+if(e.ctrlKey && e.keyCode == 'E'.charCodeAt(0)){
+return false;
+}
+if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+return false;
+}
+if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+return false;
+}
+if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+return false;
+}
+if(e.ctrlKey && e.keyCode == 'S'.charCodeAt(0)){
+return false;
+}
+if(e.ctrlKey && e.keyCode == 'H'.charCodeAt(0)){
+return false;
+}
+if(e.ctrlKey && e.keyCode == 'A'.charCodeAt(0)){
+return false;
+}
+if(e.ctrlKey && e.keyCode == 'F'.charCodeAt(0)){
+return false;
+}
+if(e.ctrlKey && e.keyCode == 'E'.charCodeAt(0)){
+return false;
+}
+}
+
+$(document).bind("contextmenu",function(e) {
+ e.preventDefault();
+});
+$(document).keydown(function(e){
+    if(e.ctrlKey && (e.which === 83)){
+       e.preventDefault();
+       return false;
+    }
+});
+</script>
+
+<script>
+
+var linkCons = ["./images/unsplash2", "./images/highwayr","./images/unsplash"];
+var count =0;
+ setInterval(function() {
+    
+    $('.three').attr('src', linkCons[count]+ ".jpg");   
+
+    count++;      
+        if (count > 2)
+        {
+            count = 0;
+        }
+ }, 3000);
+
+</script>
+
+
+
+
+
+</head>
+<body>
+
+<div class="overlay"> 
+ <a class="close-button" id="spinneroff">Close</a>
+<div class="preloader">
+  <div class="preloader__ring">
+    <div class="preloader__sector">P</div>
+    <div class="preloader__sector">R</div>
+    <div class="preloader__sector">E</div>
+    <div class="preloader__sector">M</div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+  </div>
+  <div class="preloader__ring">
+    <div class="preloader__sector">M</div>
+    <div class="preloader__sector">O</div>
+    <div class="preloader__sector">D</div>
+    <div class="preloader__sector">Y</div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+  </div>
+  <div class="preloader__ring">
+    <div class="preloader__sector">[</div>
+    <div class="preloader__sector">P</div>
+    <div class="preloader__sector">M</div>
+    <div class="preloader__sector">]</div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+    <div class="preloader__sector"></div>
+  </div>
+</div>
+    <span class="text1" style="text-align:center;"> Enable Camera to switch from "Normal Navigation Mode" to "Gesture Navigation Mode" else close this spinner .<br>Note : Use "👈" to navigate left and "👉" to navigate right.<br>< Use Direction alongwith Thumb and Index Finger > </span>
+
+
+
+</div>  
+
+
+
+ <div id="video-container">
+  <video id="pose-video" class="layer" playsinline></video>
+    <canvas id="pose-canvas" class="layer"></canvas>
+    <div id="pose-result" class="layer"></div>
+    <div id="navigation-left" class="layer"></div>
+    <div id="navigation-right" class="layer"></div>
+  </div>
+
+
+
+<div id="container" class="container"> 
+  <!-- Left Menu / Logo-->
+  <aside class="menu" id="menu">
+    <div class="logo"> 
+      <!-- Logo image--> 
+      <img src="images/goldenlogo.jpg" width="140" height="140" alt=""/> 
+      <!-- Logo nam
+        e--> 
+      <span>Prem Mody</span></div>
+    <!-- Mobile Navigation--> 
+    <a href="#menu1" class="menu-link"></a> 
+    <!-- Left Navigation-->
+    <nav id="menu1" role="navigation"> 
+      <a href="#chapterintroduction"><span id="link_introduction" class="active">Home</span></a> 
+      <a href="#chapterabout"><span id="link_about">About</span></a> 
+      <a href="#chapterskills"><span id="link_skills">Skills</span></a> 
+      <a href="#chapterexperience"><span id="link_experience">Experience</span></a> 
+      <a href="#chaptereducation"><span id="link_education">Education</span></a>
+      <a href="#chapterachievements"><span id="link_achievements">Achievements</span></a>
+      <a href="#chaptercertification"><span id="link_certification">Certifications</span></a>
+      <a href="#chapterportfolio"><span id="link_portfolio">Projects & Papers</span></a>
+      <a href="#chaptercontact"><span id="link_contact">Contact</span></a>
+    </nav>
+    <div class="social"> 
+      <a href="https://www.linkedin.com/in/premmody312/" target="_blank" class="facebook"><i class="fab fa-linkedin"></i></a> 
+
+      <a href="https://www.instagram.com/prem_mody/" target="_blank" class="twitter"><i class="fab fa-instagram"></i></a> 
+
+      <a href="https://github.com/premmody312" target="_blank" class="github"><i class="fab fa-github"></i></a> </div>
+<!--     <div class="copyright"> © Prem Mody.<br>
+      All Rights Reserved. </div> -->
+  </aside>
+  <!-- Go to top link for mobile device --> 
+  <a href="#menu" class="totop-link">Go to the top</a>
+  <div class="content-scroller">
+    <div class="content-wrapper"> 
+      
+      <!-- Introduction -->
+      <article class="content introduction noscroll" id="chapterintroduction">
+       <div class="inner" id='intro'>
+          <h2 color="#fff"><span>Hello, I'm</span><br>
+            Prem Mody</h2>
+          <h4><span class="title" style="letter-spacing: 1.5;font-size: 20px ;"> MS CS @ USC | ex-TIAA | M. L.  ENGINEER | FULL-STACK DEVELOPER </span> </div></h4>
+    
+
+         <!-- <img class="three" src="./images/unsplash2.jpg" alt="" / > -->
+
+        <div id="example" >
+           <img  src="./images/unsplash2.jpg" alt="" />
+          <img  src="./images/highwayr.jpg" alt="" />
+          <img  src="./images/unsplash.jpg" alt="" />
+        </div>
+
+
+<!--         <div id="owl-demo" class="owl-carousel">
+           <div  class="item"><img src="./images/unsplash2.jpg" alt="" / ></div>
+          <div  class="item"><img src="./images/highwayr.jpg" alt="" /></div>
+          <div  class="item"><img  src="./images/unsplash.jpg" alt="" /></div>
+        </div> -->
+      </article>
+      
+      <!-- About -->
+      <article class="content about white-bg " id="chapterabout">
+        <div class="inner">
+          <h2 class="header">About</h2>
+          <div class="title-divider"></div>
+          <div class="about-con">
+            <ul>
+              <li>Name: Prem Mody</li>
+              <li>Email: <a href="mailto:premmody312@gmail.com">premmody312@gmail.com</a></li>
+              
+              <!-- <li>Date of birth: 3rd December 1999</li> -->
+              <li>Nationality: Indian</li>
+              <li>Current Location: Los Angeles, CA</li>
+            </ul>
+            <h3 style="margin:20px 0px 10px">Professional Profile</h3>
+            <p>
+              Graduate student at University of Southern California, pursuing Master's in Computer Science.
+              <br>
+              <br>
+              2 Years of work experience as a Machine Learning Engineer/Software Developer at TIAA, Mumbai, India, where, my day to day responsibilities covered the entire machine learning life cycle right from designing the architecture of the system to deploying the machine learning models to Production.
+              
+            </p>
+            <a href="PM.pdf"  download="PM-Resume.pdf" class="button">Download resume as PDF format</a>  </div>
+        </div>
+      </article>
+      
+      <!-- Skills -->
+      <article class="content skills gray-bg" id="chapterskills">
+        <div class="inner">
+          <h2 class="header">Skills</h2>
+          <div class="title-divider"></div>
+          <h3>Welcome to my Skill Exhibition Section</h3>
+          <p>A good coder is not only defined by great technique but also by knowledge, skill and the ability to adapt to existing codebase seamlessly. Everybody is a coder ,the best coder is someone who is ready to transmutate to new revolutionary technologies catering to the demand of the world.</p>
+          <div class="skills-con">
+            <div class="container-sub margin-top50">
+              <div class="row">
+                 <div class="col-6 margin-bottom50">
+                  <div class="col-6"><span class="chart" data-percent="96"><span class="percent"></span> </span></div>
+                  <div class="col-6 chart-text">
+                    <h4>WEB DEVELOPMENT</h4>
+                  </div>
+                </div>
+                <div class="col-6 margin-bottom50">
+                  <div class="col-6"><span class="chart" data-percent="88"><span class="percent"></span> </span></div>
+                  <div class="col-6 chart-text">
+                    <h4>DEEP LEARNING</h4>
+                  </div>
+                </div>
+                <div class="col-6 ">
+                  <div class="col-6"><span class="chart" data-percent="85"><span class="percent"></span> </span></div>
+                  <div class="col-6 chart-text">
+                    <h4>Computer Vision</h4>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="col-6"><span class="chart" data-percent="90"><span class="percent"></span> </span></div>
+                  <div class="col-6 chart-text">
+                    <h4>APP DEVELOPMENT</h4>
+                  </div>
+                </div>
+               
+              </div>
+            </div>
+            <div class="full-divider"></div>
+            <div class="container-sub skill-list">
+              <div class="row">
+                <h3>Knowledge</h3>
+                <p>A Result-Oriented Hard-working programmer who is adroit in multifarious domains with a flair for creating efficient solutions in least amount of time. These multifarious domains are listed below:</p>
+                <div class="col-4 margin-top10">
+                  <ul>
+                    <li>Deep Learning</li>
+                    <li>Web Development</li>
+                    <li>Web Scraping</li>
+                    <li>Cloud Computing</li>
+                    <li>Photo Manipulation</li>
+                  </ul>
+                </div>
+                <div class="col-4 margin-top10">
+                  <ul>
+                    <li>Machine Learning </li>
+                    <li>App Development</li>
+                    <li>Database Handling</li>
+                    <li>Version Control Systems</li>
+                    <li>Software Testing</li>
+                  </ul>
+                </div>
+                <div class="col-4 margin-top10">
+                  <ul>
+                    <li>Natural Language Processing </li>
+                    <li>Computer Vision</li>
+                    <li>Data Science</li>
+                    <li>Linux/Unix</li>
+                    <li>Graphic Design</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="full-divider"></div>
+            <div class="container-sub">
+              <div class="row">
+                <h3>Programming Skills</h3>
+                <p>If we talk to a programmer in a language he understands, it goes to his head. If you talk to him in his programming language, it goes directly to his heart.</p>
+
+<!-- 
+                <h6>Programming Languages</h6>
+                Python, Javascript, Java, C, C++,PHP, SQL.
+
+                <h6>Web Technologies</h6>
+                Node.js, Express.js, MongoDB, jQuery, HTML, CSS, Bootstrap.
+
+        <h6>Others</h6>
+        Tensorflow, Scikit-learn, OpenCV, Keras, Git, Github, etc -->
+        <div class="progressbar-main margin-top50">
+                  <div class="progress-bar-description" style="text-align: center"> Programming Languages   |   Frameworks | Libraries   |   Tools   |   Technologies</div>
+                  <div  class="progress">
+                    <div class="progress-values"><span id="world"><i class="fab fa-react"></i></span></div>
+                  </div>
+
+                </div>
+
+         <div class="progressbar-main margin-top50">
+                  <div class="progress-bar-description">    Python</div>
+                  <div id="progressBar" class="progress">
+                    <div class="progress-value"><span></span></div>
+                  </div>
+                </div>
+        
+  
+
+        <div class="progressbar-main margin-top50">
+                  <div class="progress-bar-description"> Javascript, JQuery</div>
+                  <div id="progressBar2" class="progress">
+                    <div class="progress-value"></div>
+                  </div>
+                </div>
+
+                <div class="progressbar-main margin-top50">
+                  <div class="progress-bar-description"> Java</div>
+                  <div id="progressBar3" class="progress">
+                    <div class="progress-value"></div>
+                  </div>
+                </div>
+
+                <div class="progressbar-main margin-top50">
+                  <div class="progress-bar-description"> C, C++</div>
+                  <div id="progressBar4" class="progress">
+                    <div class="progress-value"></div>
+                  </div>
+                </div>
+
+                <div class="progressbar-main margin-top50">
+                  <div class="progress-bar-description"> AWS EC2, S3, Route 53, Kafka, EMR, Lambda, Redshift, DynamoDB, Sagemaker</div>
+                  <div id="progressBar5" class="progress">
+                    <div class="progress-value"></div>
+                  </div>
+                </div>
+
+                <div class="progressbar-main margin-top50">
+                  <div class="progress-bar-description"> SQL, MySQL, Postgres SQL, MongoDB </div>
+                  <div id="progressBar6" class="progress">
+                    <div class="progress-value"></div>
+                  </div>
+                </div>
+
+                <div class="progressbar-main margin-top50">
+                  <div class="progress-bar-description"> Node.js, Express.js</div>
+                  <div id="progressBar7" class="progress">
+                    <div class="progress-value"></div>
+                  </div>
+                </div>
+
+                <div class="progressbar-main margin-top50">
+                  <div class="progress-bar-description"> HTML, CSS, Bootstrap</div>
+                  <div id="progressBar8" class="progress">
+                    <div class="progress-value"></div>
+                  </div>
+                </div>
+
+                <div class="progressbar-main margin-top50">
+                  <div class="progress-bar-description">Numpy, Pandas, Matplotlib, Tensorflow, Scikit-learn, OpenCV, Keras, Spark</div>
+                  <div id="progressBar9" class="progress">
+                    <div class="progress-value"></div>
+                  </div>
+                </div>
+
+                <div class="progressbar-main margin-top50">
+                  <div class="progress-bar-description"> Git, Github</div>
+                  <div id="progressBar10" class="progress">
+                    <div class="progress-value"></div>
+                  </div>
+                </div>
+
+                
+              </div>
+            </div>
+            <div class="full-divider"></div>
+          </div>
+        </div>
+      </article>
+      
+      <!-- Experience -->
+      <article class="content experience white-bg" id="chapterexperience">
+        <div class="inner">
+          <h2 class="header">Experience</h2>
+          <div class="title-divider"></div>
+          <h3>Focus on amount of effort one endures rather than just Years </h3>
+          <p>The Genesis of knowledge is Experience. As we all know, Consciousness as a journey can only be understood backwards; but it must be lived forwards and that is possible by taking into account our own experiences. </p>
+          <div class="experience-con">
+            <div class="container-sub">
+              <div class="full-divider"></div>
+
+        <div class="experience-details">
+               
+                  <div class="col-6 margin-bottom50 margin-top50">
+                    <div class="col-3 icon-block"><i class="fas fa-laptop-code"></i></div>
+                    
+                <div  class=" col-8 flot-left " style="margin-left: 5px;text-align: center">      
+            <h5 >Teachers Insurance Annuity Association of America (TIAA)</h5>
+            <h4> Revenue Management</h4>
+                      
+                <span>2 Years</span> </div>
+                  </div>
+                  <div class="col-6 margin-bottom50 margin-top50 no-margin-top" > 
+                    <h4 style="text-align:center">Software Developer</h4>
+
+                    <ul id="exp" class="grow " >
+                          <li>Led the entire team and delivered the R+ project right from designing the architecture to deploying into Production.</li>
+                          <li>Implemented Random Forest, XGBoost, CATBoost, AdaBoost and Gradient Boosting Trees to predict the clients who will adopt R+ with an accuracy of 96% </li>
+                          <li>Utilized K-Means, Birch, Hierarchical, DBSAN and Affinity clustering algorithms to identify distinct clusters of clients.</li>
+                          <li>Devised sequential and feed forward artificial neural networks to get the probability of clients moving to R+</li>
+                          <li>Explained the decisions of the above models using Explainable AI techniques like LIME, SHAP and Explain like 5.</li>
+                          <li>Migrated a project from SQL Server to DynamoDB using Spring Boot and Angular by creating API’s, services and models</li>
+
+
+                    </ul>
+                    <div style="text-align:center;"> <i style="font-size:30px;" class="fas fa-chevron-circle-down"></i></div>
+                  </div>
+
+               
+
+                </div>
+
+
+
+                <div class="full-divider"></div>
+
+
+
+                <div class="experience-details">
+                  <div class="col-6 margin-bottom50 margin-top50">
+                    <div class="col-3 icon-block"><i class="fab fa-react"></i></div>
+                    <div  class=" col-8 flot-left" style="margin-left: 5px;text-align: center">
+                        <h5 >Somaiya Vidyavihar University</h5>
+                                  <h4>Board Of Studies</h4>
+                            <span>2 Years</span> </div>
+                    </div>
+
+                  <div class="col-6 margin-bottom50 margin-top50 no-margin-top"> 
+
+                    <h4 style="text-align:center">Information Technology</h4>
+
+                    <ul id="exp small" class="grow max-height-small">
+                      <li>
+                        Discussed the prospective Structure and Syllabi of various Undergraduate, Post-Graduate, Certificate and Diploma courses offered by the university.
+                      </li>
+                    </ul>
+                    <div style="text-align:center;"> <i style="font-size:30px;" class="fas fa-chevron-circle-down"></i></div>
+                  </div>
+
+                </div>
+
+
+
+                <div class="full-divider"></div>
+
+               <div class="experience-details">
+                  <div class="col-6 margin-bottom50 margin-top50">
+                    <div class="col-3 icon-block"><i class="fas fa-walking"></i>
+          
+                    </div>
+                    <div  class=" col-8 flot-left" style="margin-left: 5px;text-align: center">
+            
+                      <h5 >Dr. J.H.Nirmal (HOD ELECTRONICS)</h5>
+            
+                        <h4>D.L. Research & Development Intern</h4>
+            <!--  61 days-->              
+                <span>8 Weeks</span> </div>
+                  </div>
+
+
+                  
+                  <div class="col-6 margin-bottom50 margin-top50 no-margin-top" > 
+                    <h4 style="text-align:center">Motion Estimation, Classification and Tracking </h4> 
+
+                        <ul id="exp" class="grow max-height-med">
+                          <li>
+                            Implemented a computer-vision-based python application using OpenCV that can be used to estimate, classify and track the motion of a person based on a real-time video stream by estimating the locations of key body joints
+
+                          </li>
+
+                          <li>
+                             Embodied both ResNet and MobileNet Convolution Neural Networks (CNN) architectures using TensorFlow so that the user can get personalized accuracy and performance. 
+
+                          </li>
+
+
+                        </ul>
+                      <div style="text-align:center;"> <i style="font-size:30px;" class="fas fa-chevron-circle-down"></i></div>
+
+                  </div>
+
+                </div>
+                <div class="full-divider"></div>
+               <div class="experience-details">
+                  <div class="col-6 margin-bottom50 margin-top50">
+                    <div class="col-3 icon-block"><i class="fas fa-language"></i></div>
+                    <div class=" col-8 flot-left" style="margin-left: 5px;text-align: center">
+
+
+            <h5 >Prof. Pradnya Gotmare</h5>
+                      <h4>N.L.P. Research & Development Intern</h4>
+            <!--  61 days-->              
+                <span>6 Weeks</span> </div>
+                  </div>
+                  <div class="col-6 margin-bottom50 margin-top50 no-margin-top"> 
+                    <h4 style="text-align:center">Neural Machine Translation</h4> 
+                      <ul id="exp" class="grow max-height-med" >
+                        <li>
+                          Researched various deep learning methods that can be used to translate text from English To Marathi and vice-versa.
+
+                        </li>
+
+                        <li>
+                           Developed a Word Level Neural Machine Translator that can translate between English and Marathi with an accuracy of 91%.
+
+                        </li>
+
+                        <li>
+                          
+                          Used the encoder decoder architecture with LSTM to achieve the required accuracy. 
+                        </li>
+
+                      </ul>
+                       <div style="text-align:center;"> <i style="font-size:30px;" class="fas fa-chevron-circle-down"></i></div>              
+                  </div>
+
+                </div>
+                <div class="full-divider"></div>
+
+               <div class="experience-details">
+                  <div class="col-6 margin-bottom50 margin-top50">
+                    <div class="col-3 icon-block"><i class="fas fa-warehouse"></i></div>
+                    <div  class=" col-8 flot-left" style="margin-left: 5px;text-align: center">
+
+
+            <h5 >Dr. Ujwala Bhangale</h5>
+                      <h4>Full Stack Web Development Intern</h4>
+            <!--  61 days-->              
+                <span>40 Weeks</span> </div>
+                  </div>
+                  <div class="col-6 margin-bottom50 margin-top50 no-margin-top"> <h4 style="text-align:center">Faculty Management System </h4>
+          <ul id="exp" class="grow max-height-med" > 
+            <li>
+              Developed a Faculty Management System that will be used by the entire Information Technology Department for effective maintenance and utilization of faculty data .
+
+
+
+            </li>
+            <li>
+            Implemented  functionalities like work report generation, profile development tracking, automatic resume generation based on data,etc by providing support and development.
+          </li>
+          </ul>
+          <div style="text-align:center;"> <i style="font-size:30px;" class="fas fa-chevron-circle-down"></i></div>
+                   </div>
+
+                </div>
+
+              <div class="full-divider"></div>
+              <div class="row">
+
+
+
+                <div class="experience-details">
+                  <div class="col-6 margin-bottom50 margin-top50">
+                    <div class="col-3 icon-block"><i class="fas fa-brain"></i></div>
+                    <div  class=" col-8 flot-left" style="margin-left: 5px;text-align: center">
+
+
+            <h5 >Dr. J.H.Nirmal (HOD ELECTRONICS)</h5>
+                      <h4>D.L. Research & Development Intern</h4>
+            <!--  61 days-->              
+                <span>8 Weeks</span> </div>
+                  </div>
+                  <div class="col-6 margin-bottom50 margin-top50 no-margin-top"> <h4 style="text-align:center">ALZHEIMER'S DISEASE DETECTION</h4> 
+          <ul id="exp" class="grow max-height-med" >
+            <li>
+              Researched various methods that can be used to calculate the confidence level of a person having alzheimers.
+
+            </li>
+
+            <li>
+              Developed a deep learning engine that can be used to estimate the likelihood of a person having alzheimers based on the MRI scan of the patient
+
+            </li>
+
+            <li>
+              Successfully accomplished the project with an accuracy of 92%
+            </li>
+
+          </ul>
+                  
+              <div style="text-align:center;"> <i style="font-size:30px;" class="fas fa-chevron-circle-down"></i></div>
+          </div>
+
+                </div>
+                <div class="full-divider"></div>
+                <div class="experience-details">
+                  <div class="col-6 margin-bottom50 margin-top50">
+                    <div class="col-3 icon-block"><i class="fa fa-briefcase"></i></div>
+                    <div  class=" col-8 flot-left" style="margin-left: 5px;text-align: center">
+                      <h5 >Prof. Grishma Sharma</h5>
+                      <h4>D.L. Research & Development Intern</h4>
+                      <!--  61 days--> 
+                      <span>8 Weeks</span> </div>
+                  </div>
+                  <div class="col-6 margin-bottom50 margin-top50 no-margin-top"> <h4 style="text-align:center">NEURAL NETWORKS</h4>
+          <ul id="exp" class="grow max-height-lg"> 
+            <li>
+              Scrutinized various learning rules, types, architecture, evolution and classification of neural networks.
+
+            </li>
+
+            <li>
+              Interpreted the classical types of neural networks like perceptron , Auto-Encoders, Markov Chains, Hopfield Network and Boltzmann machines with respect to their applications.
+
+            </li>
+
+            <li>
+              Implemented the error backpropagation training algorithm (EBPTA) from scratch and developed a symbol recognizer and classifier using it with an accuracy of 95%.
+            </li>
+
+          </ul>
+
+          <div style="text-align:center;"> <i style="font-size:30px;" class="fas fa-chevron-circle-down"></i></div>
+
+                    </div>
+                </div>
+                <div class="full-divider"></div>
+                <div class="experience-details">
+                  <div class="col-6 margin-bottom50 margin-top50">
+                    <div class="col-3 icon-block"><i class="fa fa-arrows-alt"></i></div>
+                    <div  class=" col-8 flot-left" style="margin-left: 5px;text-align: center">
+                      
+                       <h5 >Prof. Yogita Borse and Prof. Purnima Ahirao</h5>
+                      <h4>N.L.P. Research & Development Intern</h4>
+                      <!--  40 days--> 
+                      <span>5 Weeks</span> </div>
+                  </div>
+                  <div class="col-6 margin-bottom50 margin-top50 no-margin-top"> <h4 style="text-align:center">WEBSITE INDEPENDENT DATA EXTRACTION TOOL</h4>
+
+
+          <ul id="exp" class="grow max-height-lg" >
+            <li>
+              Performed advanced literature survey after reading countless research papers on neural models like Bidirectional LSTM, GRU, BERT, ALBERT, and state-of-the-art techniques for information extraction, categorization and summarization.
+
+            </li>
+
+            <li>
+              Developed an ALBERT-based utility using Keras to extract, categorize and summarize semi-structured data from any website, and automated the export of the summarized data file to AWS S3 using Boto3.
+            </li>
+
+          </ul>
+
+          <div style="text-align:center;"> <i style="font-size:30px;" class="fas fa-chevron-circle-down"></i></div>
+
+                   </div>
+
+
+                </div>
+                <div class="full-divider"></div>
+                <div class="experience-details">
+                  <div class="col-6 margin-bottom50 margin-top50">
+                    <div class="col-3 icon-block"><i class="fab fa-android"></i></div>
+                    <div  class=" col-8 flot-left" style="margin-left: 5px;text-align: center">
+                      <h5>Prof. Leena Sahu</h5>
+                      <h4>Android App Development Intern</h4>
+                      <!--  67 days--> 
+                      <span>9 Weeks</span> </div>
+                  </div>
+                  <div class="col-6 margin-bottom50 margin-top50 no-margin-top"> <h4 style="text-align:center">ABHIYANTRIKI ANDROID APP</h4>
+                  <ul id="exp" class="grow max-height-abhi">
+                        <li>Built a scalable and distributed android application catering to thousands of participants from disparate technical institutes across the state.</li>
+                        <li>Disintegrated the existing monolithic backend and introduced microservices architecture alongside efficient load balancing algorithms. </li>
+                        <li>Tech Stack: Node.js, MongoDB, Android Studio,  Express.js .</li>
+                  </ul>
+                    <div style="text-align:center;"> <i style="font-size:30px;" class="fas fa-chevron-circle-down"></i></div>
+                   </div>
+                </div>
+                <div class="full-divider"></div>
+                <div class="experience-details">
+                  <div class="col-6 margin-bottom50 margin-top50">
+                    <div class="col-3 icon-block"><i class="fas fa-traffic-light"></i></div>
+                    <div  class=" col-8 flot-left" style="margin-left: 5px;text-align: center">
+                      <h5 >Dr. J.H.Nirmal (HOD ELECTRONICS)</h5>
+                      <h4>M.L. Research & Development Intern</h4>
+            <!--  59 days--> 
+                      <span>8 Weeks</span> </div>
+                  </div>
+                  <div class="col-6 margin-bottom50 margin-top50 no-margin-top"><h4 style="text-align:center" >TRAFFIC DENSITY DETECTION</h4>
+          <ul id="exp" class="grow" style="max-height: 220px;">
+            <li>
+              Researched on various convolutional neural network architectures like AlexNet, InceptionNet, ResNet, R-CNN, VGGNet, Mask-RCNN, and YOLO which can be used to estimate traffic concentration in a region
+            </li>
+
+            <li>
+              Devised a custom convolutional neural network model with an accuracy of 91% to detect, estimate and track traffic density in a particular area based on a video camera feed and deployed it on Heroku.
+            </li>
+
+            <li>
+              Fine tuned the model to achieve an accuracy of 91%  and deployed to Heroku.
+            </li>
+
+          </ul>
+
+            <div style="text-align:center;"> <i style="font-size:30px;" class="fas fa-chevron-circle-down"></i></div>
+
+                   </div>
+                  <div class="full-divider"></div>
+
+
+
+                </div>
+
+
+
+        <h3 class="col-12 margin-bottom50 margin-top50 no-margin-top" style="text-align: center;">M.L.= Machine Learning    |    D.L.= Deep Learning    | N.L.P = Natural Language Processing</h3>
+            
+            <div class="full-divider"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      
+   <!-- Education -->
+      <article class="content education gray-bg" id="chaptereducation">
+        <div class="inner">
+          <h2 class="header">Education</h2>
+          <div class="title-divider"></div>
+          <h3>Quite My Education</h3>
+          <p>Education is the key to the future, for tomorrow belongs to those who work like a Trojan for it today. Education accompanied with experience enables one to enjoy the true taste of Life.
+          As we all know that the goal of education is enhancement of knowledge and propagation of Truth</p>
+          <div class="education-con">
+            <div class="container-sub">
+              <!-- <div class="full-divider"></div> -->
+              <div class="row">
+
+              <div class="full-divider"></div>
+                <div class="education-details">
+                  <div class="col-6 margin-bottom50 margin-top50">
+                    <div class="col-3 icon-block"><i class="fas fa-book-reader"></i></div>
+                    <div class="flot-left">
+                      <h5>University of Southern California</h5>
+                      <!-- <h4>BTECH IT</h4> -->
+                      <span>2023 - Present</span> </div>
+                  </div>
+                  <div class="col-6 margin-bottom50 margin-top50 no-margin-top">
+                    <h5>MS in Computer Science</h5> 
+                  Course Work: Algorithms, Foundations of AI, Web Technologies, Database Systems, Applied NLP   </div>
+
+                </div>
+
+
+
+
+                <div class="full-divider"></div>
+                <div class="education-details">
+                  <div class="col-6 margin-bottom50 margin-top50">
+                    <div class="col-3 icon-block"><i class="fa fa-laptop"></i></div>
+                    <div class="flot-left">
+                      <h5>Mumbai University</h5>
+                      <!-- <h4>BTECH IT</h4> -->
+                      <span>2017 - 2021</span> </div>
+                  </div>
+                  <div class="col-6 margin-bottom50 margin-top50 no-margin-top">
+                    <h5>CGPA : 9.67&nbsp;/&nbsp;10 &nbsp;&nbsp;  |  &nbsp;&nbsp;  Rank &nbsp;  1</h5> 
+                  Completed my Bachelors in Information Technology at The K. J. Somaiya College of Engineering by being Rank 1 in the graduating class   </div>
+
+                </div>
+
+
+                <div class="full-divider"></div>
+                <div class="education-details">
+                  <div class="col-6 margin-bottom50 margin-top50">
+                    <div class="col-3 icon-block"><i class="fa fa-life-bouy"></i></div>
+                    <div class="flot-left">
+                      <h5>Maharashtra State Board</h5>
+                      <!-- <h4>Degree of Design</h4> -->
+                      <span>2015 - 2017</span> </div>
+                  </div>
+                  <div class="col-6 margin-bottom50 margin-top50 no-margin-top"> 
+          <h5>Percentage : 86.15%    &nbsp;&nbsp;  |  &nbsp;&nbsp;    Top &nbsp; 3%</h5> 
+                  Completed my Higher Secondary School Certificate in Computer Science at The D. G. Ruparel College of Arts, Science and Commerce by being in the top 3% of the graduating class </div>
+                </div>
+                <div class="full-divider"></div>
+                 <div class="education-details">
+                  <div class="col-6 margin-bottom50 margin-top50">
+                    <div class="col-3 icon-block"><i class="fas fa-book-reader"></i></div>
+                    <div class="flot-left">
+                      <h5>Maharashtra State Board</h5>
+                      <!-- <h4>Bachelor of Arts</h4> -->
+                      <span>2005 - 2015</span> </div>
+                  </div>
+                  <div class="col-6 margin-bottom50 margin-top50 no-margin-top">
+          <h5>Percentage : 96.00% &nbsp;&nbsp;  |  &nbsp;&nbsp;  Rank &nbsp; 1</h5> 
+
+                   Completed my Secondary School Certificate at Our Lady of Remedy High School by being Rank 1 in the class. </div>
+                </div>
+                <div class="full-divider"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <!-- Achievements -->
+      <article class="content skills white-bg" id="chapterachievements">
+        <div class="inner">
+          <h2 class="header">Achievements</h2>
+      <div class="title-divider"></div>
+          <h3>Just have a glance at some of my accomplishments</h3>
+          <p>Significant achievement is usually deep-seated in great sacrifice, and is always the result of unwavering efforts despite confronting failures.</p>
+
+          <div class="full-divider"></div>
+
+            <div class=" education-details wrapper-fl2 margin-bottom10 margin-top10">
+                    <div class="f11 icon-block"><i class="fa fa-trophy"></i></div>
+                    <div class=" f21 h5class">TIAA</div>
+                    <div class=" f22 h5class">BRONZE AWARD</div>
+                    <div class=" f31">Leadership Connect, Jun 2023</div>
+            </div>
+
+
+            <div class="full-divider"></div>
+              <div class=" education-details wrapper-fl2 margin-bottom10 margin-top10">
+                    <div class="f11 icon-block"><i class="fa fa-trophy"></i></div>
+                    <div class=" f21 h5class">TIAA</div>
+                    <div class=" f22 h5class">SILVER AWARD</div>
+                    <div class="f31">Deliver Excellence, Mar 2023 </div>
+              </div> 
+
+            <div class="full-divider"></div>
+            <div class=" education-details wrapper-fl2 margin-bottom10 margin-top10">
+                    <div class="f11 icon-block"><i class="fa fa-trophy"></i></div>
+                    <div class=" f21 h5class">TIAA</div>
+                    <div class=" f22 h5class">BRONZE AWARD</div>
+                    <div class=" f31">Acting as one Team, Jan 2023</div>
+            </div> 
+
+            <div class="full-divider"></div>
+              <div class=" education-details wrapper-fl2 margin-bottom10 margin-top10">
+                    <div class="f11 icon-block"><i class="fa fa-trophy"></i></div>
+                    <div class=" f21 h5class">TIAA</div>
+                    <div class=" f22 h5class">BRONZE AWARD</div>
+                    <div class=" f31">Deliver Excellence, Dec 2022</div>
+            </div> 
+
+
+          <div class="full-divider"></div>
+              <div class=" education-details wrapper-fl2 margin-bottom10 margin-top10">
+                    <div class="f11 icon-block"><i class="fa fa-trophy"></i></div>
+                    <div class=" f21 h5class">TIAA</div>
+                    <div class=" f22 h5class">BRONZE AWARD</div>
+                    <div class=" f31">Leading and owning the project, Sept 2022</div>
+              </div> 
+
+        <div class="full-divider"></div>
+              <div class=" education-details wrapper-fl2 margin-bottom10 margin-top10">
+                    <div class="f11 icon-block"><i class="fa fa-trophy"></i></div>
+                    <div class=" f21 h5class">TIAA</div>
+                    <div class=" f22 h5class">SILVER AWARD</div>
+                    <div class="f31">Deliver Excellence, Aug 2022 </div>
+              </div> 
+
+              <div class="full-divider"></div>
+              <div class=" education-details wrapper-fl2 margin-bottom10 margin-top10">
+                    <div class="f11 icon-block"><i class="fas fa-award"></i></div>
+                    <div class=" f21 h5class">TIAA</div>
+                     <div class=" f22 h5class">On-The-Spot 2 AWARD</div>
+                    <div class="f31">Deliver Excellence, July 2022</div>
+              </div> 
+
+            <div class="full-divider"></div>
+              <div class=" education-details wrapper-fl2 margin-bottom10 margin-top10">
+                    <div class="f11 icon-block"><i class="fa fa-trophy"></i></div>
+                    <div class=" f21 h5class">TIAA</div>
+                     <div class=" f22 h5class">BRONZE AWARD</div>
+                    <div class="f31">Improving Client's Experience, May 2022</div>
+              </div> 
+
+
+              
+              <div class="full-divider"></div>
+              <div class=" education-details wrapper-fl2 margin-bottom10 margin-top10">
+                    <div class="f11 icon-block"><i class="fas fa-award"></i></div>
+                    <div class=" f21 h5class">TIAA</div>
+                    <div class=" f22 h5class">On-The-Spot 2 AWARD</div>
+                    <div class="f31">Taking Ownership, March 2022</div>
+              </div> 
+
+              <div class="full-divider"></div>
+              <div class=" education-details wrapper-fl2 margin-bottom10 margin-top10">
+                    <div class="f11 icon-block"><i class="fas fa-award"></i></div>
+                    <div class=" f21 h5class">TIAA</div>
+                    <div class=" f22 h5class">On-The-Spot 1 AWARD</div>
+                    <div class="f31">Deliver Excellence, January 2022</div>
+              </div> 
+
+              <div class="full-divider"></div>
+              <div class=" education-details wrapper-fl2 margin-bottom10 margin-top10">
+                    <div class="f11 icon-block"><i class="fas fa-award"></i></div>
+                    <div class=" f21 h5class">TIAA</div>
+                    <div class=" f22 h5class">On-The-Spot 1 AWARD</div>
+                    <div class="f31">Deliver Excellence, December 2021</div>
+              </div> 
+      
+
+              <div class="full-divider"></div>
+              <div class=" education-details wrapper-fl2 margin-bottom10 margin-top10">
+                    <div class="f11 icon-block"><i class="fa fa-trophy"></i></div>
+                    <div class=" f21 h5class">KJSCE</div>
+                    <div class=" f22 h5class">RANK 1</div>
+                    <div class="f31">Gold Medalist, B.Tech Information Technology, 2021</div>
+              </div> 
+
+          <div class="full-divider"></div>
+              <div class=" education-details wrapper-fl2 margin-bottom10 margin-top10">
+                    <div class="f11 icon-block"><i class="fa fa-trophy"></i></div>
+                    <div class=" f21 h5class">KJSCE</div>
+                    <div class=" f22 h5class">WINNER</div>
+                    <div class="f31">Won Hack-D-Covid Hackathon, 2020</div>
+          </div> 
+
+
+
+
+    <div class="full-divider"></div>
+              <div class=" education-details wrapper-fl2 margin-bottom10 margin-top10">
+                    <div class="f11 icon-block"><i class="fas fa-globe-asia"></i></div>
+                    <div class=" f21 h5class">SOLOLEARN</div>
+                    <div class=" f22 h5class">RANK 1</div>
+                    <div class="f31">Rank 1: India, October 2018</div>
+              </div> 
+
+         <div class="full-divider"></div>
+              <div class=" education-details wrapper-fl2 margin-bottom10 margin-top10">
+                    <div class="f11 icon-block"><i class="fa fa-trophy"></i></div>
+                    <div class=" f21 h5class">OLRS</div>
+                    <div class=" f22 h5class">RANK 1</div>
+                    <div class="f31">Gold Medalist, High School, 2015 </div>
+              </div> 
+
+    <div class="full-divider"></div>
+              <div class=" education-details wrapper-fl2 margin-bottom10 margin-top10">
+                    <div class="f11 icon-block"><i class="fa fa-trophy"></i></div>
+                    <div class=" f21 h5class">UDACITY</div>
+                    <div class=" f22 h5class">SCHOLAR</div>
+                    <div class="f31">Intel Edge-AI</div>
+              </div> 
+
+         <div class="full-divider"></div>
+              <div class=" education-details wrapper-fl2 margin-bottom10 margin-top10">
+                    <div class="f11 icon-block"><i class="fab fa-aws"></i></div>
+                    <div class=" f21 h5class">UDACITY</div>
+                    <div class=" f22 h5class">SCHOLAR</div>
+                    <div class="f31">AWS DeepRacer</div>
+              </div> 
+
+          <div class="full-divider"></div>
+              <div class=" education-details wrapper-fl2 margin-bottom10 margin-top10">
+                    <div class="f11 icon-block"><i class="fab fa-aws"></i></div>
+                    <div class=" f21 h5class">UDACITY</div>
+                    <div class=" f22 h5class">SCHOLAR</div>
+                    <div class="f31">AWS Machine Learning Engineer</div>
+              </div> 
+
+     <div class="full-divider"></div>
+              <div class=" education-details wrapper-fl2 margin-bottom10 margin-top10">
+                    <div class="f11 icon-block"><i class="fa fa-trophy"></i></div>
+                    <div class=" f21 h5class">KJSCE</div>
+                    <div class=" f22 h5class">RANK 1</div>
+                    <div class="f31"> Final Year, 2021 </div>
+              </div> 
+
+         <div class="full-divider"></div>
+              <div class=" education-details wrapper-fl2 margin-bottom10 margin-top10">
+                    <div class="f11 icon-block"><i class="fa fa-trophy"></i></div>
+                    <div class=" f21 h5class">KJSCE</div>
+                    <div class=" f22 h5class">RANK 1</div>
+                    <div class="f31">Second Year, 2019 </div>
+              </div> 
+
+
+
+     <div class="full-divider"></div>
+              <div class=" education-details wrapper-fl2 margin-bottom10 margin-top10">
+                    <div class="f11 icon-block"><i class="fa fa-trophy"></i></div>
+                    <div class=" f21 h5class">KJSCE</div>
+                    <div class=" f22 h5class">RANK 2</div>
+                    <div class="f31">First Year, 2018</div>
+              </div>  
+
+    <div class="full-divider"></div>
+              <div class=" education-details wrapper-fl2 margin-bottom10 margin-top10">
+                    <div class="f11 icon-block"><i class="fas fa-award"></i></div>
+                    <div class=" f21 h5class">KJSCE</div>
+                    <div class=" f22 h5class">SUBJECT TOPPER</div>
+                    <div class="f31">Artificial Intelligence </div>
+              </div> 
+
+
+    <div class="full-divider"></div>
+              <div class=" education-details wrapper-fl2 margin-bottom10 margin-top10">
+                    <div class="f11 icon-block"><i class="fas fa-award"></i></div>
+                    <div class=" f21 h5class">KJSCE</div>
+                    <div class=" f22 h5class">SUBJECT TOPPER</div>
+                    <div class="f31">Web Programming I </div>
+              </div> 
+
+
+    <div class="full-divider"></div>
+              <div class=" education-details wrapper-fl2 margin-bottom10 margin-top10">
+                    <div class="f11 icon-block"><i class="fas fa-award"></i></div>
+                    <div class=" f21 h5class">KJSCE</div>
+                    <div class=" f22 h5class">SUBJECT TOPPER</div>
+                    <div class="f31">Mobile Development</div>
+              </div> 
+
+
+    <div class="full-divider"></div>
+              <div class=" education-details wrapper-fl2 margin-bottom10 margin-top10">
+                    <div class="f11 icon-block"><i class="fas fa-award"></i></div>
+                    <div class=" f21 h5class">KJSCE</div>
+                    <div class=" f22 h5class">LAB TOPPER</div>
+                    <div class="f31">Programming Laboratory II </div>
+              </div> 
+
+
+    <div class="full-divider"></div>
+              <div class=" education-details wrapper-fl2 margin-bottom10 margin-top10">
+                    <div class="f11 icon-block"><i class="fas fa-award"></i></div>
+                    <div class=" f21 h5class">KJSCE</div>
+                    <div class=" f22 h5class">LAB TOPPER</div>
+                    <div class="f31">Operating Systems</div>
+              </div> 
+
+
+    <div class="full-divider"></div>
+              <div class=" education-details wrapper-fl2 margin-bottom10 margin-top10">
+                    <div class="f11 icon-block"><i class="fas fa-award"></i></div>
+                    <div class=" f21 h5class">KJSCE</div>
+                    <div class=" f22 h5class">LAB TOPPER</div>
+                    <div class="f31">Web Programming II </div>
+              </div> 
+
+
+
+
+    <div class="full-divider"></div>
+         
+
+
+
+
+              
+      
+
+
+      </div>
+
+      </article>
+
+      <!-- Certifications -->
+      <article class="content skills gray-bg" id="chaptercertification">
+        <div class="inner">
+          <h2 class="header">Certifications</h2>
+      <div class="title-divider"></div>
+          <h3>40+ Certifications!</h3>
+          <p>Getting Certified is a vital part of a person's life. 1% extra effort leads to a whopping 37.8%  output at the conclusion of the year .</p>        
+          <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-photo"></i></div>
+                    
+                      <div class=" f2 h5class">SCALED AGILE</div>
+                      
+                  <div class="f3">Certified SAFe 5 Practitioner</div></div>
+          
+          <br>
+         <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-photo"></i></div>
+                    
+                      <div class=" f2 h5class">COURSERA</div>
+                      
+                  <div class="f3">Deep Learning Specialization</div></div>
+          
+          <br>
+          <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-photo"></i></div>
+                    
+                      <div class=" f2 h5class">UDACITY</div>
+                      
+                  <div class="f3">Data Engineer Nanodegree</div></div>
+          
+          <br>
+          <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-life-bouy"></i></div>
+                    
+                      <div class=" f2 h5class">UDACITY</div>
+                      
+                  <div class="f3">Computer Vision Nanodegree</div></div>
+          
+          <br>
+         <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-laptop"></i></div>
+                    
+                      <div class=" f2 h5class">UDEMY
+</div>
+                      
+                  <div class="f3">Deep Learning and Computer Vision A-Z</div></div>
+          
+          <br>
+          <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-send-o"></i></div>
+                    
+                      <div class=" f2 h5class">UDEMY
+</div>
+                      
+                  <div class="f3">Deep Learning and NLP A-Z</div>
+</div>
+          
+          <br>
+          <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-briefcase"></i></div>
+                    
+                      <div class=" f2 h5class">UDEMY
+</div>
+                      
+                  <div class="f3">Deep Learning A-Z
+</div></div>
+          
+          <br>
+          <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-arrows-alt"></i></div>
+                    
+                      <div class=" f2 h5class">UDEMY
+</div>
+                      
+                  <div class="f3">Machine Learning A-Z
+</div></div>
+          <br>
+                   <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-photo"></i></div>
+                    
+                      <div class=" f2 h5class">PLURALSIGHT
+</div>
+                      
+                  <div class="f3">Deep Learning Instances and Frameworks on AWS
+</div></div>
+          
+          <br>
+          <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-life-bouy"></i></div>
+                    
+                      <div class=" f2 h5class">PLURALSIGHT
+</div>
+                      
+                  <div class="f3">Analyzing Text on AWS with Amazon Comprehend
+</div></div>
+          
+          <br>
+         <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-laptop"></i></div>
+                    
+                      <div class=" f2 h5class">PLURALSIGHT
+</div>
+                      
+                  <div class="f3">Building a Voice-enabled Serverless Website with AWS Polly
+</div></div>
+          
+          <br>
+          <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-send-o"></i></div>
+                    
+                      <div class=" f2 h5class">PLURALSIGHT
+</div>
+                      
+                  <div class="f3">Getting Started with Amazon Lex
+</div></div>
+          
+          <br>
+          <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-briefcase"></i></div>
+                    
+                      <div class=" f2 h5class">PLURALSIGHT
+</div>
+                      
+                  <div class="f3">Build, Train, and Deploy Machine Learning Models with AWS SageMaker
+</div></div>
+          
+          <br>
+          <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-arrows-alt"></i></div>
+                    
+                      <div class=" f2 h5class">PLURALSIGHT
+</div>
+                      
+                  <div class="f3">Developing Applications with AWS Rekognition
+</div></div>
+          <br>
+                   <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-photo"></i></div>
+                    
+                      <div class=" f2 h5class">UDACITY
+</div>
+                      
+                  <div class="f3">Intel OpenVino Edge AI</div></div>
+          
+          <br>
+          <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-life-bouy"></i></div>
+                    
+                      <div class=" f2 h5class">UDEMY
+</div>
+                      
+                  <div class="f3">Google Advanced Search: Find Stuff like a boss 
+</div></div>
+          
+          <br>
+         <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-laptop"></i></div>
+                    
+                      <div class=" f2 h5class">UDEMY
+</div>
+                      
+                  <div class="f3">Android App Development Guide</div></div>
+          
+          <br>
+          <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-send-o"></i></div>
+                    
+                      <div class=" f2 h5class">UDEMY
+</div>
+                      
+                  <div class="f3">Advanced Topics in Predictive Modeling
+</div></div>
+          
+          <br>
+          <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-briefcase"></i></div>
+                    
+                      <div class=" f2 h5class">UDEMY
+</div>
+                      
+                  <div class="f3">Cryptocurrency: Complete Bitcoin, Ethereum and Altcoins 
+</div></div>
+          
+          <br>
+          <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-arrows-alt"></i></div>
+                    
+                      <div class=" f2 h5class">UDEMY
+</div>
+                      
+                  <div class="f3">Python and Cryptocurrency | Build 5 Real World Applications
+</div></div>
+          <br>
+                   <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-photo"></i></div>
+                    
+                      <div class=" f2 h5class">UDEMY
+</div>
+                      
+                  <div class="f3">Python Pandas: Data Manipulation and Analysis 
+</div></div>
+          
+          <br>
+          <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-life-bouy"></i></div>
+                    
+                      <div class=" f2 h5class">UDEMY
+</div>
+                      
+                  <div class="f3">TensorFlow and Keras for Neural Networks and Deep learning 
+</div></div>
+          
+          <br>
+         <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-laptop"></i></div>
+                    
+                      <div class=" f2 h5class">UDEMY
+</div>
+                      
+                  <div class="f3">Unity Beginner to Advanced
+</div></div>
+          
+          <br>
+          <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-send-o"></i></div>
+                    
+                      <div class=" f2 h5class">UDEMY
+</div>
+                      
+                  <div class="f3">Java Tutorial for Complete Beginners
+</div></div>
+          
+          <br>
+          <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-briefcase"></i></div>
+                    
+                      <div class=" f2 h5class">UDEMY
+</div>
+                      
+                  <div class="f3">Learn to Build Chatbots with DialogFlow
+</div></div>
+          
+          <br>
+          <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-arrows-alt"></i></div>
+                    
+                      <div class=" f2 h5class">UDEMY
+</div>
+                      
+                  <div class="f3">Data Science with R - Beginner
+</div></div>
+          <br>
+                   <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-photo"></i></div>
+                    
+                      <div class=" f2 h5class">UDEMY
+</div>
+                      
+                  <div class="f3">Introduction to French
+</div></div>
+          
+          <br>
+          <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-life-bouy"></i></div>
+                    
+                      <div class=" f2 h5class">UDEMY
+</div>
+                      
+                  <div class="f3">A Gentle Introduction to Deep Learning Using Keras
+</div></div>
+          
+          <br>
+         <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-laptop"></i></div>
+                    
+                      <div class=" f2 h5class">UDEMY
+</div>
+                      
+                  <div class="f3">Machine Learning Using Python
+</div></div>
+          
+          <br>
+          <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-send-o"></i></div>
+                    
+                      <div class=" f2 h5class">SOLOLEARN</div>
+                      
+                  <div class="f3">Google Advanced Search: Find Stuff like a boss 
+</div></div>
+          
+          <br>
+          <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-briefcase"></i></div>
+                    
+                      <div class=" f2 h5class">SOLOLEARN
+</div>
+                      
+                  <div class="f3">SQL Tutorial Course
+</div></div>
+          
+          <br>
+          <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-arrows-alt"></i></div>
+                    
+                      <div class=" f2 h5class">SOLOLEARN
+</div>
+                      
+                  <div class="f3">Python Tutorial Course
+</div></div>
+          <br>
+                   <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-photo"></i></div>
+                    
+                      <div class=" f2 h5class">SOLOLEARN
+</div>
+                      
+                  <div class="f3">PHP Tutorial Course
+</div></div>
+          
+          <br>
+          <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-life-bouy"></i></div>
+                    
+                      <div class=" f2 h5class">SOLOLEARN
+</div>
+                      
+                  <div class="f3">JQuery Tutorial Course
+</div></div>
+          
+          <br>
+         <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-laptop"></i></div>
+                    
+                      <div class=" f2 h5class">SOLOLEARN
+</div>
+                      
+                  <div class="f3">JavaScript Tutorial Course
+</div></div>
+          
+          <br>
+          <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-send-o"></i></div>
+                    
+                      <div class=" f2 h5class">SOLOLEARN
+</div>
+                      
+                  <div class="f3">Java Tutorial Course
+</div></div>
+          
+          <br>
+          <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-briefcase"></i></div>
+                    
+                      <div class=" f2 h5class">SOLOLEARN
+</div>
+                      
+                  <div class="f3">HTML Tutorial Course
+</div></div>
+          
+          <br>
+          <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-arrows-alt"></i></div>
+                    
+                      <div class=" f2 h5class">SOLOLEARN
+</div>
+                      
+                  <div class="f3">CSS Tutorial Course
+</div></div>
+          <br>
+                   <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-photo"></i></div>
+                    
+                      <div class=" f2 h5class">SOLOLEARN
+</div>
+                      
+                  <div class="f3">C Sharp Tutorial Course
+</div></div>
+          
+          <br>
+          <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-life-bouy"></i></div>
+                    
+                      <div class=" f2 h5class">SOLOLEARN
+</div>
+                      
+                  <div class="f3">C++ Tutorial Course
+</div></div>
+          
+          <br>
+         <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-laptop"></i></div>
+                    
+                      <div class=" f2 h5class">SOLOLEARN
+          </div>
+                      
+                  <div class="f3">C Tutorial Course
+</div></div>
+          
+          <br>
+
+
+
+
+
+
+
+      <!-- <?php
+      $result=mysqli_query($con,"select * from certifications");
+      if (mysqli_num_rows($result) > 0) {
+      while($row = mysqli_fetch_assoc($result)){
+            $items[] = $row;
+      }
+      }else 
+      {
+            echo "Contact the Administrator";
+      }
+
+      $items = array_reverse($items ,true);
+
+        
+
+      foreach($items as $row){
+
+        $temp="";
+        switch ($row["cert_id"]%6) {
+          case 0:
+            $temp="photo";
+            break;
+          case 1:
+            $temp="life-bouy";
+            break;
+          case 2:
+            $temp="laptop";
+            break;
+          case 3:
+            $temp="send-o";
+            break;
+          case 4:
+            $temp="briefcase";
+            break;
+          case 5:
+            $temp="arrows-alt";
+            break;
+        
+          
+        }
+
+
+
+
+         echo ' 
+      <div class="full-divider"></div>
+                  <div class=" education-details wrapper-fl margin-bottom10 margin-top10">
+                    <div class="f1 icon-block"><i class="fa fa-'.$temp.'"></i></div>
+                    
+                      <div class=" f2 h5class">'. strtoupper($row["cert_cmpy"]). '</div>
+                      
+                  <div class="f3"> ' . $row["cert_name"]. "</div></div>
+          
+          <br>";
+
+
+      }
+
+      mysqli_close($con);
+
+
+      
+
+      ?> -->
+
+      <div class="full-divider"></div>
+      
+
+        </div>
+      </article>
+
+
+      <!-- Portfolio -->
+      <article class="content portfolio white-bg" id="chapterportfolio">
+        <div class="inner">
+          <h2 class="header">Projects and Publications</h2>
+          <div class="title-divider"></div>
+          <h3>Experiential learning creates a seasoned project and applied learning paves the way for seminal papers </h3>
+          <p>Knowledge teamed with practical experience and applied research leads a naive programmer to a veteran professional.</p>
+          <div class="portfolio-con">
+            <div class="container-sub margin-top50">
+              <div class="row">
+                <div id="grid-gallery" class="grid-gallery">
+                  <section class="grid-wrap">
+                    <ul class="grid">
+
+                      <li >
+                         <a href="https://ieeexplore.ieee.org/document/9417959" target="_blank">
+                        <div class="figure" >  
+                       <div class="figcaption">
+              
+                            <div class="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82" alt="" />
+                              <h3 style="padding-left: 50px;padding-right: 50px;">Automated Shopping and Convenient Wi-Fi Based Indoor Navigation</h3>
+                              <h4>Research Paper - IEEE Xplore</h4> </div></div>
+                       
+                        </div>
+                         </a>
+                      </li>
+                    
+                     
+                      <li >
+                         <a href="https://ieeexplore.ieee.org/document/9587773" target="_blank">
+                        <div class="figure" >  
+                       <div class="figcaption">
+              
+                            <div class="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82" alt="" />
+                              <h3 style="padding-left: 50px;padding-right: 50px;">Accessible Self-Care and Automated Indoor Navigation for COVID-19 Vaccination Centre</h3>
+                              <h4>Research Paper - IEEE Xplore</h4> </div></div>
+                       
+                        </div>
+                         </a>
+                      </li>
+                    
+
+
+
+                     
+                      <li >
+                         <a href="https://github.com/premmody312/Facial-Keypoint-Recognition" target="_blank">
+                        <div class="figure" >  
+              <div class="figcaption">
+              
+                            <div class="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82" alt="" />
+                              <h3>Smart filters based on Facial Keypoints</h3>
+                              <h4>Deep Learning Project</h4> </div></div>
+                       
+                        </div>
+                         </a>
+                      </li>
+                    
+
+                     
+                      <li>
+                         <a href="https://github.com/premmody312/Automatic-Image-Captioning" target="_blank">
+                        <div class="figure"> 
+                          <div class="figcaption">
+                            <div class="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82" alt="" />
+                              <h3>Automatic Image Captioning</h3>
+                              <h4>Deep Learning Project</h4> </div>
+                          </div>
+                        </div>
+                         </a>
+                      </li>
+                      
+
+
+                      
+                      <li>
+                        <a href="https://github.com/premmody312/Docsify" target="_blank">
+
+                        <div class="figure"> 
+                          <div class="figcaption">
+                            <div class="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82" alt="" />
+                              <h3>Docsify</h3>
+                              <h4>Android Application Development</h4> </div>
+                          </div>
+                        </div>
+                         </a>
+                      </li>
+                      
+
+                      
+                      <li>
+                        <a href="https://github.com/premmody312/LivePerSquareFoot" target="_blank">
+                        <div class="figure"> 
+                          <div class="figcaption">
+                            <div class="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82" alt="" />
+                              <h3>LivePerSquareFoot</h3>
+                              <h4>Full Stack Web Development</h4> </div>
+                          </div>
+                        </div>
+                          </a>
+                      </li>
+                      
+
+
+
+
+                    </ul>
+                  </section>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+     
+      <!-- Contact -->
+      <article class="content contact gray-bg" id="chaptercontact">
+        <div class="inner">
+          <h2 class="header">Contact</h2>
+          <div class="title-divider"></div>
+          <h3>Let's Keep In Touch</h3>
+          <p>Co-ordination, Friendship and Networking - these are an integral part and the foundation of a healthy and happy life. Thank you, for giving me your precious time, feel free to contact me if you have any exciting or good opportunity </p>
+          <div class="full-divider"></div>
+          <div class="contact-con margin-top50">
+            <div class="container-sub">
+              <div class="row">
+                <div class="contact-details">
+                  <div class="col-6">
+                    <div class="contact-text">
+                      <div class="col-2 icon-block address"><i class="fa fa-map-marker"></i></div>
+                      <div class="flot-left"> <strong>Prem Mody</strong><br>
+                        Los Angeles, California<br>
+                        USA.</div>
+                    </div>
+                    <div class="contact-text">
+                      <div class="col-2 icon-block phone"><i class="fa fa-phone"></i></div>
+                      <div class="flot-left"> <strong>Phone</strong><br>
+                        Contact on Email </div>
+                    </div>
+                    <div class="contact-text">
+                      <div class="col-2 icon-block email"><i class="fa fa-envelope"></i></div>
+                      <div class="flot-left"> <strong>Email</strong><br>
+                        <a href="mailto:premmody312@gmail.com">premmody312@gmail.com</a> </div>
+                    </div>
+                  </div>
+                  <div class="col-6 m-margin-top30">
+                    <h3>I'm also on Social Networks</h3>
+                    Building an online presence is as important as having a high quality network that  generates and fosters opportunities. 
+                    <div class="contact-social margin-top30">
+            <a href="https://www.linkedin.com/in/premmody312/" target="_blank">
+                      <i class="fab fa-linkedin"></i></a>
+
+                      <a href="https://www.instagram.com/prem_mody/" target="_blank">
+                      <i class="fab fa-instagram"></i></a> 
+
+                      <a href="https://github.com/premmody312" target="_blank" class="github"><i class="fab fa-github"></i></a>
+
+
+                       </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </article>
+
+
+       <!-- Ending -->
+      <article class="content introduction-end" id="chapterthankyou">
+        <div class="inner">
+          <div class="introduction-end-con margin-top50">
+            <h3><strong>Prem Mody</strong></h3>
+            <div id="rotate1" class="rotate">
+              <div ><span>Awesome.</span></div>
+              <div><span>Invincible.</span></div>
+              <div><span>Unbeatable.</span></div>
+              <div><span>Leader.</span></div>
+            </div>
+
+            <div id="rotate2" class="rotate">
+              <div><span>Honest.</span></div>
+              <div><span>Opportunist.</span></div>
+              <div><span>Humblesome.</span></div>
+              <div><span>Responsible.</span></div>
+            </div>
+
+
+            <div id="rotate3" class="rotate">
+              <div><span>Ambitious.</span></div>
+              <div><span>Dedicated.</span></div>
+              <div><span>Motivated.</span></div>
+              <div><span>Amiable.</span></div>
+            </div>
+<!--      <span class="rotate">Respectfulness. , Perseverance. , Optimism. , Self-Discipline.</span>
+ -->            <div id="rotate4" class="rotate">
+              <div><span>Respectful.</span></div>
+              <div><span>Perseverant.</span></div>
+              <div><span>Optimistic.</span></div>
+              <div><span>Self-Disciplined.</span></div>
+            </div>
+          </div>
+        </div>
+      </article>
+       
+     
+    </div>
+    <!-- content-wrapper --> 
+  </div>
+  <!-- content-scroller --> 
+</div>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/head.min.js"></script>
+<script src="https://kit.fontawesome.com/e969b15291.js" crossorigin="anonymous"></script>
+
+
+
+
+<script type="text/javascript"> 
+$("#spinneroff").click(function() {
+    // Animate loader off screen
+    $(".overlay").fadeOut("slow");;
+    $('link[href="css/preloader.css"]').remove();
+  });
+
+(function() { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v5.1.0/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
+
+
+
+<!-- Projects Thumbnail --> 
+<script type="text/javascript" src="js/imagesloaded.min.js"></script> 
+<script type="text/javascript" src="js/masonry.min.js"></script> 
+<script type="text/javascript" src="js/class_helper.js"></script> 
+<!-- <script type="text/javascript" src="js/grid_gallery.js"></script> 
+ -->
+<!-- Projects Grid --> 
+
+<!-- Projects Slider--> 
+<script type="text/javascript"  src="js/carousel.js"></script> 
+<script type="text/javascript" src="js/jquery.easypiechart.js"></script> 
+<script type="text/javascript" src="js/text.rotator.js"></script>
+<!-- Page Scrolling --> 
+<script>
+head.js(
+    { mousewheel : "js/jquery.mousewheel.js" },
+    { mwheelIntent : "js/mwheelIntent.js" },
+    { jScrollPane : "js/jquery.jscrollpane.min.js" },
+    { history : "js/jquery.history.js" },
+    { stringLib : "js/core.string.js" },
+    { easing : "js/jquery.easing.1.3.js" },
+    { smartresize : "js/jquery.smartresize.js" },
+    { page : "js/jquery.page.js" }
+    );
+</script>  
+<!-- Fit Video --> 
+<script type="text/javascript"  src="js/jquery.fitvids.js"></script>
+<!-- All Javascript Component--> 
+<script src="js/settings.js"></script>
+<script type="text/javascript">
+
+
+
+
+
+ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+
+   $('.overlay').remove();
+   $('#video-container').remove();
+    $('link[href="css/preloader.css"]').remove();
+
+}
+else{
+
+var navigationCounter=0;
+  const config = {
+      video: { width: 640, height: 480, fps: 30 }
+    };
+
+    const landmarkColors = {
+      thumb: 'red',
+      indexFinger: 'blue',
+      middleFinger: 'yellow',
+      ringFinger: 'green',
+      pinky: 'pink',
+      palmBase: 'white'
+    };
+
+    const navigation=[
+      "introduction", "about" ,"skills" ,"experience","education","achievements","certification","portfolio","contact","thankyou"
+    ];
+    const gestureStrings = {
+      
+      'directionLeft':'👈',
+      'directionRight':'👉'
+
+    };
+
+    async function main() {
+
+      const video = document.querySelector("#pose-video");
+      const canvas = document.querySelector("#pose-canvas");
+      const ctx = canvas.getContext("2d");
+
+      const resultLayer = document.querySelector("#pose-result");
+      const navLeft = document.querySelector("#navigation-left");
+      const navRight = document.querySelector("#navigation-right");
+      navLeft.innerText="👈"; 
+      navRight.innerText="👉";
+
+      // configure gesture estimator
+      const knownGestures = [
+        fp.Gestures.DirectionLeftGesture,
+        fp.Gestures.DirectionRightGesture
+      ];
+      const GE = new fp.GestureEstimator(knownGestures);
+
+      // load handpose model
+      const model = await handpose.load();
+      console.log("Gesture Recognition Model loaded");
+
+      function sleep(seconds) 
+        {
+          var e = new Date().getTime() + (seconds * 1000);
+          while (new Date().getTime() <= e) {}
+        }
+
+      var dirLeft=function(k1,navigationCounter){
+                k1=(k1-1);
+                navigationCounter+=k1;
+                console.log(navigationCounter);
+                if(k1==-1){
+                  if (navigationCounter<0){navigationCounter+=10;}
+                console.log("#chapter" +navigation[(navigationCounter+10)%10]);
+                document.getElementById("chapter" +navigation[navigationCounter%10]).click();
+                
+                }
+                return k1,navigationCounter;
+      }
+
+      var dirRight=function(k1,navigationCounter){
+               k1=(k1+1);
+                
+                navigationCounter+=k1;
+                console.log(navigationCounter);
+                if(k1==1){
+                console.log("#chapter" +navigation[navigationCounter%10]);
+                document.getElementById("chapter" +navigation[navigationCounter%10]).click();
+                }
+                return k1,navigationCounter;
+      }
+      // main estimation loop
+      const estimateHands = async () => {
+        
+        // clear canvas overlay
+        ctx.clearRect(0, 0, config.video.width, config.video.height);
+        resultLayer.innerText = '';
+
+        // get hand landmarks from video
+        // Note: Handpose currently only detects one hand at a time
+        // Therefore the maximum number of predictions is 1
+        const predictions = await model.estimateHands(video, true);
+
+        for(let i = 0; i < predictions.length; i++) 
+        {
+          
+          // draw colored dots at each predicted joint position
+          for(let part in predictions[i].annotations) {
+            for(let point of predictions[i].annotations[part]) {
+              drawPoint(ctx, point[0], point[1], 3, landmarkColors[part]);
+            }
+          }
+
+          // now estimate gestures based on landmarks
+          // using a minimum confidence of 7.5 (out of 10)
+          const est = GE.estimate(predictions[i].landmarks, 8.5);
+
+          if(est.gestures.length > 0) {
+
+            // find gesture with highest confidence
+            let result = est.gestures.reduce((p, c) => { 
+              return (p.confidence > c.confidence) ? p : c;
+            });
+
+            resultLayer.innerText = gestureStrings[result.name];
+            var k1=0;
+              if(result.name==="directionLeft")
+                {
+                  setTimeout(k1,navigationCounter=dirLeft(k1,navigationCounter),200);
+
+                }
+                 
+              else if(result.name==="directionRight")
+                {
+                   setTimeout(k1,navigationCounter=dirRight(k1,navigationCounter),200);
+
+                   
+                }
+
+              }
+
+
+          
+        }
+
+        // ...and so on
+        setTimeout(() => { estimateHands(); }, 20000/ config.video.fps );
+      };
+
+      estimateHands();
+      console.log("Starting predictions");
+    }
+
+    async function initCamera(width, height, fps) {
+
+      const constraints = {
+        audio: false,
+        video: {
+          facingMode: "user",
+          width: width,
+          height: height,
+          frameRate: { max: fps }
+        }
+      };
+
+      const video = document.querySelector("#pose-video");
+      video.width = width;
+      video.height = height;
+
+      // get video stream
+      try{
+      const stream = await navigator.mediaDevices.getUserMedia(constraints);
+      console.log(stream);
+      video.srcObject = stream;
+      return new Promise(resolve => {
+        video.onloadedmetadata = () => { resolve(video) };
+      });
+      }
+      catch{
+        $('#video-container').remove();
+        console.log("Camera not enabled");
+      }
+      
+
+
+
+    }
+
+    function drawPoint(ctx, x, y, r, color) {
+      ctx.beginPath();
+      ctx.arc(x, y, r, 0, 2 * Math.PI);
+      ctx.fillStyle = color;
+      ctx.fill();
+    }
+
+    window.addEventListener("DOMContentLoaded", () => {
+
+      initCamera(
+        config.video.width, config.video.height, config.video.fps
+      ).then(video => {
+        video.play();
+        video.addEventListener("loadeddata", event => {
+          console.log("Camera is ready");
+          main();
+        });
+      });
+
+      const canvas = document.querySelector("#pose-canvas");
+      canvas.width = 640;
+      canvas.height = 480;
+      console.log("Canvas initialized");
+    });
+
+    
+}
+  
+
+</script>
+</body>
+</html>
